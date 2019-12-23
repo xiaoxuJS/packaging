@@ -35,4 +35,12 @@ box-sizing:border-box;
     ```
 
 - 加上样式之后再点击需要把样式再去掉，就是把点击样式的时候把`jobwantedtypeIndex`清空就行了！
+
 - 多选的话就把`jobwantedtypeIndex`变成个数组 循环数组对比就行了，删除时候把当前点击的index在数组中删除就行了！
+
+## js 阻止事件冒泡
+
+```js
+e.stopPropagation() //把它写入子元素的事件中就行了
+```
+
