@@ -24,5 +24,7 @@ function timeYearMonth(timestamp) {//时间戳转换
 	return Y + M ;
 }
 export {
-	timestampToTime,timestampToTimeyear,timeYearMonth
+	timestampToTime, 
+	timestampToTimeyear, 
+	timeYearMonth
 }
