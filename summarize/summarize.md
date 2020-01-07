@@ -44,3 +44,15 @@ box-sizing:border-box;
 e.stopPropagation() //把它写入子元素的事件中就行了
 ```
 
+## antd-mobile  选择器-Picker-获取数据中的label
+
+```js
+import arrayTreeFilter from 'array-tree-filter';
+
+const treeChildren = arrayTreeFilter(district, (c, level) => c.value === value[level]);
+
+console.log( treeChildren.map(v => v.label).join(',') )
+```
+
+
+
